@@ -71,6 +71,8 @@
 	/*border: 1px solid #cfcfcf;*/
 	z-index: 1;
 	/*overflow: hidden;*/
+	
+	overflow-x: scroll;
 	background-color: #fff;
 	height: 100%;
 }
