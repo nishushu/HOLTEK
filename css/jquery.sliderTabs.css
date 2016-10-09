@@ -68,9 +68,9 @@
 
 .ui-slider-tabs-content-container{
 	position: relative;
-	border: 1px solid #cfcfcf;
+	/*border: 1px solid #cfcfcf;*/
 	z-index: 1;
-	overflow: hidden;
+	/*overflow: hidden;*/
 	background-color: #fff;
 	height: 100%;
 }
