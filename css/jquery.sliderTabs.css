@@ -3,7 +3,7 @@
 }
 .ui-slider-tabs-list-wrapper{
 	position: relative;
-	width: 1055px;
+	width: 100%;
 	font-family: Arial, sans-serif;
 	margin: 0px 0 -9px 0;
     z-index: 50;
