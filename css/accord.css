@@ -465,13 +465,15 @@ tr.TextWhiteBold {
   font-weight: bold;
 }
 
-tr.TextWhiteBold a:hover {
-  color: #ea5514;
-  text-decoration: none;
-}
+
 
 .TableContent td a {
   color: #125287;
+  text-decoration: none;
+}
+
+tr.TextWhiteBold a:hover {
+  color: #ea5514;
   text-decoration: none;
 }
 
@@ -486,6 +488,7 @@ tr.TextWhiteBold a:hover {
   /*16px*/
   border: 1px solid #d3d3d4;
   vertical-align: middle;
+  /*word-break: break-all;*/
 }
 
 .Text_tilte {
@@ -525,13 +528,13 @@ tr.TextWhiteBold a:hover {
   /*淺灰色*/
 }
 
-.TextBlackBold td {
+/*.TextBlackBold td {
   white-space: nowrap;
-}
+}*/
 
 /*強迫文字不換行*/
 .TextBlackBold_part_no {
-  line-height: 20px;
+  line-height: 18px;
   background: #EFEFEF;
   text-align: left;
   padding-right: 10px;
