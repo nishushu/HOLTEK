@@ -80,7 +80,7 @@ overflow-x:hidden;
   -webkit-flex: 1;
   flex: 1;
   font-size: 14px;
-  background: #ffffff;
+  background: #fff;
 }
 
 .GlobalPrdouct_right_title {
@@ -145,7 +145,7 @@ overflow-x:hidden;
   box-shadow: 0 1px 0 #166bae inset, 0 -1px 0 #0a3354 inset;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
   border: 0.25px solid #fff;
-  padding: 10px 10px 10px 40px;
+  padding: 5px 0px 5px 40px;
 }
 .dropdown [data-toggle="dropdown"]:hover {
   background: #12578f;
@@ -454,15 +454,20 @@ overflow-x:hidden;
 .TableContent {
   color: #3e3a39;
   font-size: 14px;
-  line-height: 23px;
+  line-height: 18px;
   border: 1px solid #d3d3d4;
   text-align: center;
   width: 100%;
+  background: #fff;
 }
 
 tr.TextWhiteBold {
   background-color: #eee;
   font-weight: bold;
+}
+tr.TextWhiteBold:not {
+  background-color: #fff;
+
 }
 
 
@@ -472,7 +477,7 @@ tr.TextWhiteBold {
   text-decoration: none;
 }
 
-tr.TextWhiteBold a:hover {
+.TableContent td a:hover {
   color: #ea5514;
   text-decoration: none;
 }
@@ -483,7 +488,7 @@ tr.TextWhiteBold a:hover {
 }
 
 .TableContent td {
-  padding-left: 10px;
+  padding-left: 2px;
   font-size: 1.000em;
   /*16px*/
   border: 1px solid #d3d3d4;
@@ -562,8 +567,8 @@ ul{
     display: block;
     width:100%;
     color: #fff;
-    font-size: 16px;
-    font-weight: bold;
+    font-size: 14px;
+   /* font-weight: bold;*/
     line-height: 30px;
     padding: 5px 0px 5px 10px;
     background: #125287;
