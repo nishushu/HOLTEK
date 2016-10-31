@@ -9,8 +9,13 @@
   font-size: 14px;
   background: #ffffff;
   clear: both;
+  position: relative;
+  transition: 0.5s width;
+  overflow:hidden;
 }
-
+.GlobalPrdouct_left.slide{
+  width: 1px;
+}
 /* 左邊浮動tab*/
 .GlobalPrdouct_left .type2 {
   color: #9fa0a0;
@@ -30,19 +35,22 @@
 }
 
 .GlobalPrdouct_left li {
- /*display: inline;
-margin: 0;
-padding: 0;*/
+
   display: block;
-  width: 230px;
+  width: 220px;
   background-color: #9fa0a0;
   /*深灰色*/
   margin: 0;
-  padding: 10px 15px;
+  padding: 12px 15px;
   color: #fff;
   text-align: left;
   text-decoration: none;
   border: 1px solid #fff;
+}
+
+.GlobalPrdouct_left li:hover{
+    background-color: rgba(169, 169, 169, 0.44);
+
 }
 
 li.active {
@@ -119,5 +127,5 @@ li a {
 .pannelContainer{
   height: 100%;
   width: 100%;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }

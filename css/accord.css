@@ -117,6 +117,7 @@ overflow-x:hidden;
   background-color: #40a4d0;
 }
 
+
 .content {
   padding: 0;
   color: #fff;
@@ -483,9 +484,6 @@ tr.TextWhiteBold:not {
 }
 
 /*products*/
-.TableContent {
-  width: 100%;
-}
 
 .TableContent td {
   padding-left: 2px;
@@ -561,9 +559,8 @@ ul{
 
 }
 
-
-
 .portletNumberPage_tile_0 {
+    box-sizing: border-box;
     display: block;
     width:100%;
     color: #fff;
@@ -572,4 +569,34 @@ ul{
     line-height: 30px;
     padding: 5px 0px 5px 10px;
     background: #125287;
+}
+
+.GlobalPrdouct_left .LeftMenuToggleBtn{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: url(../images/mini-left.gif)no-repeat center center;
+    width: 5px;
+    border: 0;
+    padding: 0;
+    outline: 0;
+}
+.GlobalPrdouct_left.slide .LeftMenuToggleBtn{
+    background: url(../images/mini-right.gif)no-repeat center center;
+}
+.GlobalPrdouct_left .LeftMenuToggleBtnTOP{
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    background: url(../images/layout_arrows.png)no-repeat 0 0;
+    width: 16px;
+	height:16px;
+    border: 0;
+    padding: 0;
+    outline: 0;
+}
+.GlobalPrdouct_left.slide .LeftMenuToggleBtnTOP{
+    right: 5px;
+    background: url(../images/layout_arrows.png)no-repeat 0 -16px;
 }
